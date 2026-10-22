@@ -1,0 +1,3 @@
+read other.svg
+tree
+show c1

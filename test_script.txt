@@ -1,0 +1,8 @@
+# 测试脚本
+init 400 200
+create rect start 30 70 120 60 #4a90d9
+create line edge 150 100 250 100 black
+create rect end 250 70 120 60 #f5a623
+group flow start edge end
+save demo.svg
+tree
