@@ -1,0 +1,24 @@
+{
+  "name": "pj1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "cli": "node dist/main.js",
+    "start": "npm run build && npm run cli"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@types/xml2js": "^0.4.14",
+    "xml2js": "^0.6.2"
+  }
+}

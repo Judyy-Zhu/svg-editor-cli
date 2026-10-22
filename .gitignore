@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build output
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test outputs and generated files
+*.svg
+demo.svg
+test_output.svg
+other.svg
+
+# Logs
+*.log
+npm-debug.log*
+
+# Backup files
+*_backup/
+*.backup
+
+# Temporary files
+SUMMARY.md
